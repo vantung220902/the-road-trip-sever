@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const MessageController = require('../app/controllers/MessageController');
+const MessageController = require('../app/controllers/messageController');
 const passport = require('passport');
 const passportConfig = require('../app/middleware/passport');
 
